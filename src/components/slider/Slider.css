@@ -1,0 +1,104 @@
+.slider {
+  background: url("../../img/home-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0;
+  position: relative;
+  height: 100vh;
+}
+
+.slider .block {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    padding: 150px 0;
+  }
+}
+
+.slider .block h1 {
+  font-size: 56px;
+  line-height: 80px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.slider .block p {
+  margin-bottom: 30px;
+  color: #b9b9b9;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.slider .block span {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 992px) {
+  .slider .block h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider .block h1 {
+    font-size: 46px;
+    line-height: 62px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider .block h1 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .content-title {
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .p-5 {
+    padding: 2rem !important;
+  }
+  h2,
+  .h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 400px) {
+  .content-title {
+    font-size: 28px;
+    line-height: 46px;
+  }
+
+  .p-5 {
+    padding: 2rem !important;
+  }
+  h2,
+  .h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  .text-lg {
+    font-size: 3rem;
+  }
+}
+
+/* btn */
+
+.btn-main {
+  background: #14b9d7 !important;
+  color: #fff !important;
+  transition: all 0.2s ease !important;
+  font-size: 0.8125rem !important;
+  font-weight: 500 !important;
+  padding: 1rem 2.5rem !important;
+  text-transform: uppercase !important;
+}

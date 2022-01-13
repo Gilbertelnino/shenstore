@@ -1,0 +1,81 @@
+/* footer */
+.footer-41 {
+  background-color: #222328;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group-19 {
+  display: flex;
+  margin-top: 107px;
+  justify-content: center;
+}
+.icon {
+  height: 24px;
+  margin-top: 6px;
+  width: 24px;
+}
+.address {
+  align-items: flex-end;
+  display: flex;
+  height: 38px;
+  margin-left: 13px;
+  min-width: 214px;
+  padding: 10px 0;
+}
+
+.wisconsin-ave-suite {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  height: 17px;
+  letter-spacing: 0;
+  min-width: 218px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* horizontal line */
+
+.line-44 {
+  height: 1px;
+  margin-top: 103.5px;
+  width: 100%;
+  max-width: 1376px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.copyright {
+  display: flex;
+  height: 16px;
+  margin-top: 15.5px;
+}
+
+.x2021-all-rights-reserved {
+  color: #fff;
+  flex: 1;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

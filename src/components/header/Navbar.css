@@ -1,0 +1,25 @@
+/* logo */
+.overlap-group {
+  height: 150px;
+  position: relative;
+}
+.ellipse-55 {
+  background-color: #fab8c4;
+  border-radius: 50%;
+  height: 16px;
+  left: 157px;
+  position: absolute;
+  top: 73px;
+  width: 16px;
+}
+.logo {
+  height: 60px;
+  object-fit: contain;
+  width: 250px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

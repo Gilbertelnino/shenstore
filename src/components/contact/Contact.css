@@ -1,0 +1,11 @@
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 24px;
+}
+@media (max-width: 600px) {
+  .custom-class {
+    margin-top: 16px;
+  }
+}

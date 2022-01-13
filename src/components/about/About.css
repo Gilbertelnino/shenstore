@@ -1,0 +1,28 @@
+.about-content h4 {
+  font-weight: 600;
+}
+
+.image-mobile {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .grid-gap-about {
+    padding: inherit;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .image-mobile {
+    display: block;
+  }
+  .row {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .col-6,
+  .col-md-6 {
+    width: 100% !important;
+  }
+}
